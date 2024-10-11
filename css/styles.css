@@ -34,3 +34,14 @@ body {
   height: auto;
   display: block;
 }
+.gallery-image {
+  transition: transform var(--time) var(--cubic);
+}
+
+.gallery-link:hover {
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+}
