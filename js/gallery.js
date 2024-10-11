@@ -98,7 +98,9 @@ galleryContainer.addEventListener('click', event => {
   const largeImageURL = event.target.dataset.source;
 
   const instance = basicLightbox.create(`
+    <div class="modal">
     <img src="${largeImageURL}" width="800" height="600">
+    </div>
   `);
 
   instance.show();
